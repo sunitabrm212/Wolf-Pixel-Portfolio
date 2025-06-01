@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <div class="logo-img"></div>
+                Wolf Pixel
+            </div>
+            <div class="humburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="">Resources</a></li>
+                    <button class="nav-btn">
+                        <a href="contact.html">Let's Talk <i class="fa-solid fa-arrow-right"></i></a>
+                    </button> 
+            </ul>  
+        </div>
+    </header>
+    <main>
+       <div class="contact">
+            <h1>Let's Start Talk</h1>
+            <p>Reach out to us and let's discuss how we're here to <br>
+            listen and help you achieve your goals.</p>
+            <div class="form">
+                <form action="" id="myform">
+                    <div class="fullname">
+                        <div class="fname">
+                            <label for="fname" class="form-label">First name</label><br>
+                            <input type="text" placeholder = "First name" id="fname" class = "form-border">
+                            <p id = "fnameMsg" class = "hiddenMsg"></p>
+                        </div>
+
+                        <div class="lname">
+                            <label for="lname" class="form-label">Last name</label><br>
+                            <input type="text" placeholder="Last name" id="lname" class = "form-border">
+                            <p  id = "lnameMsg" class = "hiddenMsg"></p>
+                        </div>
+                    </div>
+                    
+                    <label for="email" class="form-label">Email</label><br>
+                        <input type="email" placeholder="you@company.com" id="email" style="width:100%;" class = "form-border"><br>
+                        <p id="emailMsg" class = "hiddenMsg"></p>
+
+                    <label for="phone" class="form-label">Phone number</label><br>
+                    <div class="form-phone form-border">
+                        <select name="country" id="">
+                            <option value="US">US</option>
+                            <option value="IN">IN</option>
+                            <option value="NP">NP</option>
+                        </select>
+                        <input type="tel" placeholder="+1 (555) 000-0000" id="phone"><br>
+                    </div>
+                    <p id="phoneMsg" class = "hiddenMsg"></p>
+                
+                    <label for="message" class="form-label">Message</label><br>
+                    <textarea name="message" id="msg" placeholder="Leave us a message..." rows="6" class = "form-border" style="width: 100%;"></textarea>
+                    <p id ="textMsg" class ="hiddenMsg"></p>
+
+                    <label for="privacy">
+                        <div class="form-privacy">
+                            <input type="checkbox" id="privacy">
+                            <p>You agree to our friendly <span style="color: #3B82f6;">privacy policy.</span></p>
+                        </div> 
+                        <p id="privacyMsg" class="hiddenMsg"></p>   
+                    </label>
+                    <br>
+                    <button type="submit" style="width:100%;">Send message</button>
+                    <!-- <input type="submit" value="Send message " placeholder="Send message" style="width:100%;"> -->
+                </form>
+            </div>
+       </div> 
+       <div class="contact-location">
+            <div class="contact-us">
+                <h2>CONTACT US</h2>
+                <h1>Reach Out to Us:</h1>
+                <p>We're Here to Listen, Collaborate, and Bring Your Vision</p>
+            </div>
+            <div class="contact-add">
+                <div class="location-icon">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="contact-address">
+                        <h3>Stiedemann</h3>
+                        <p>594 Views, Kessierside, OK 72908-2340</p>
+                    </div>
+                </div>
+                <div class="location-icon">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="contact-address">
+                        <h3>Glory Tunnel</h3>
+                        <p>913, Alinechester, UT 26045-4849</p>
+                    </div>
+                </div>
+            </div>
+            
+       </div>
+       <div class="blog-post">
+        <div class="blog-text">
+            <h1>Latest <br><span style="color: #8992A0;">blog post</span></h1>
+            <div class="blog-details">
+                <p>Fresh Insights, Dive into my Blog Post for Innovative <br>
+                 Ideas and Inspiration.</p>
+                 <button class="btn-1 button">
+                    <a href="">See More <i class="fa-solid fa-arrow-right"></i></a>
+                </button>
+            </div>
+        </div>
+        <div class="blog-boxes">
+            <div class="blog-box">
+                <div class="blog-icon-outside">
+                    <div class="blog-icon">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-box">
+                <div class="blog-icon-outside">
+                    <div class="blog-icon">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-box">
+                <div class="blog-icon-outside">
+                    <div class="blog-icon">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="footer-1">
+            Stay connected w/me.
+            <div class="foot-mail">
+                <p>Enter your email</p>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="footer-2">
+            <div class="foot-logo-item">
+                <div class="item-logo">
+                    <div class="foot-logo"></div>
+                    <h3>Wolf Pixel</h3>
+                </div>
+            <p>I'm Lora, a Product Designer with 5+ years of experience. <br>
+            Passsionate about crafting intuitive digital solutions.</p>
+            </div>
+            <div class="foot-icon">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        <div class="footer-3">
+            <p>©2024 All Rights Reserved by Wolf Pixel</p>
+            <div class="foot-policy">
+                <a href="">Terms of Services</a>
+                <a href="">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
